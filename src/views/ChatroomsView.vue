@@ -1,6 +1,15 @@
+<script>
+import ChatroomIndex from '../components/ChatroomIndex.vue'
+export default {
+  components: {
+    ChatroomIndex
+  }
+}
+</script>
+
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <ChatroomIndex />
   </div>
 </template>
 
